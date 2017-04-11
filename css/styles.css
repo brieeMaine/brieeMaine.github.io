@@ -1,0 +1,391 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    border:solid 1px red;
+} 
+.clearfix:after {
+    clear: both;
+} 
+
+/*===================== Nav Bar =====================*/
+.icon-bar {
+    color: #fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+#boosh {
+    color: red;
+}
+
+
+.navbar-default {
+    background-color: #0f70e8 !important;;
+    border-color: #0f70e8;
+    border-bottom: solid 30px #144d8b;
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.logo {
+	margin-top: 10px;
+    margin-left: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-nav>li>a {
+    line-height: 45px;
+}
+.nav {
+	margin-left: 10px;
+	/*border:solid 1px red;*/
+}
+
+.nav .navbar-nav .navbar-right {
+	margin-right: 10px;
+}
+
+div .nav-cart {
+    margin:0 auto;
+    float: right;
+    line-height: 4.428571;
+}
+
+#basket-btn-container {
+    margin-top: 10px;
+}
+
+
+.basket-contents {
+    display: inline;
+
+}
+
+.btn#headerbasket {
+    font-size: 12px;
+    margin-right: 3px;
+    margin-left: 4px;
+    color: #fff;
+    padding: 4px 5px;
+    line-height: 20px;
+
+}
+
+div .nav-cart span .cart-icon-2 {
+    background: url();
+
+}
+
+ul .nav>li a{
+    /*display: inline;*/
+    color: #fff;
+    float: right;
+    list-style-type: none;
+}
+/*==============burger menu=====================*/
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    border-top-color: #fff; 
+    border-right-color: #fff ;
+    border-bottom-color: #fff ;
+    border-left-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+/*===============================main======================================*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.image-center {
+    text-align: center;ß
+
+}
+.spacer {
+    margin: 40px;
+}
+#sizer {
+    margin: 0 10%;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+.work-naked {
+    margin-top: 50px;
+}
+.virtuous-circle {
+    text-align: center;
+}
+
+p .the-block {
+    /*text-align: left;*/
+    display: inline-block;
+    float: left;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0f70e8;
+    color: white;
+    padding: 40px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    border-top: solid 10px #144d8b;
+}
+
+#join-team {
+    margin: 0 30%;
+}
+
+#back {
+    margin: 0 auto;
+    width: 100px;
+}
+
+/*haven't quite got working yet*/
+
+.the-block-right {
+    float: right;
+
+}
+.the-block-left {
+    float:left;
+}
+
+.text-image {
+    display: inline-block;
+}
+
+/*.topmenu:hover {
+	background-color: black;
+}*/
+
+/*=====================Form====================================*/
+/*.page-edge {
+    background-color: #144d8b;
+    padding: 20px 20px;
+}*/
+.form-page {
+    border: solid 10px #144d8b;
+    margin:10px 10px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #0f70e8;
+}
+
+#personal-details {
+   
+}
+
+#first-middle-last {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.name-field {
+    display: inline-block;
+    text-align: center;
+}
+.birthday {
+    text-align: center;
+}
+
+.address {
+    width: 80%;
+    text-align: center;
+}
+input[type=file] {
+    display: inline-block;
+}
+
+.centre {
+    text-align: center;
+}
+.state-post {
+    display: inline-block;
+}
+
+#text-area {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.col-pad {
+    margin-top: 15px;
+    magrin-bottom: 15px;
+}
+
+.title-left {
+    text-align: left;
+}
+
+.title-right {
+    text-align: right;
+}
+p {
+    margin-bottom: 0;
+}
+}
+/*============FAQ PAGE =========================*/
+
+
+
+
+
+#titleFaq {
+ margin-left: 150px;
+ color: #6C6B6B;
+ margin-bottom:0;
+
+}
+
+
+/*#containerFaq {
+  width:100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: helvetica;
+  margin-bottom:0;
+}*/
+
+.headFaq {
+  color: #6C6B6B;
+  border-bottom: 1px solid #6C6B6B;
+  margin-left: 100px;
+  margin-right: 400px;
+  margin-bottom: 0;
+}
+
+.answerFaq {
+margin-left:150px;
+margin-right: 450px;
+font-weight: bold; 
+margin-bottom:0;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.navbar-default .navbar-nav>li>a {
+    line-height: 120%;
+}
+}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
