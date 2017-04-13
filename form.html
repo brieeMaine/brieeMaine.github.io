@@ -172,16 +172,17 @@
 
 
 <!-- =============================Form===================================================== -->
-
-<!-- <div id="page-edge"> -->
+<div class="parallax">
+<div id="top-border">
 <div class="form-page">
+<div class="form-contain">
   <div >
-    <h1>Tell us a little bit about yourself...</h1>
+    <h1 class="font-blue">Tell us a little bit about yourself...</h1>
   </div>
 
   <section id="personal-details">
 
-    <h3>Personal Information</h3>
+    <h3 class="font-blue">Personal Information</h3>
 
     <form method="post" action="https://formspree.io/##############@###.com">
 
@@ -197,8 +198,8 @@
 
     <div class="birthday">
     <br>
-      <input type="radio" name="gender" value="male"> Male
-      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="male" class="font-colour"> Male
+      <input type="radio" name="gender" value="female" class="font-colour"> Female
 
       <select class="dob">
         <option>01</option>
@@ -217,6 +218,20 @@
         <option>14</option>
         <option>15</option>
         <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
       </select>
 
       <select class="dob">
@@ -235,6 +250,13 @@
       </select>
 
       <select class="dob">
+          <option></option>
+          <option>1979</option>
+          <option>1980</option>
+          <option>1981</option>
+          <option>1982</option>
+          <option>1983</option>
+          <option>1984</option>
           <option>1985</option>
           <option>1986</option>
           <option>1987</option>
@@ -247,12 +269,17 @@
           <option>1994</option>
           <option>1995</option>
           <option>1996</option>
+          <option>1997</option>
+          <option>1998</option>
+          <option>1999</option>
+          <option>2000</option>
+          <option>2001</option>
         </select>
     </div>
 
   <br>
 
-    
+    <h3 class="font-blue">Address Details</h3>
     <div class="centre">
       <input class="address"type="text" name="address" placeholder="address line 1"required>
 
@@ -277,41 +304,47 @@
         <option value="TAS">Tasmania</option>
       </select>
 
-      <input class="state-post" type="text" name="postcode" placeholder="postcode eg. 2000" maxlength="4" required>
+      <input class="state-post" type="text" name="postcode" placeholder=" postcode eg. 2000" maxlength="4" required>
 
-      <input class="state-post" type="file" name="cv"> 
+      <input class="state-post font-colour" type="file" name="cv"> 
       <!-- <input type="checkbox" name="citizenship" value="Are you and Australian citizen?"> -->
     </div>
 
 
     <div id="text-area">
+
+      <h3 class="font-blue">Short Answer Questions</h3>
       <div>
-        <h6>If you could be an animal, what you be and why?</h6>
+        <h5 class="font-blue">If you could be an animal, what you be and why?</h6>
       </div>
-      <textarea rows="4" cols="100" maxlength="300" placeholder="max 300 characters"></textarea>
+      <textarea class="text-box" maxlength="300" placeholder="max 300 characters"></textarea>
       <div>
-        <h6>There are 3 drinks and 4 people. A mother with child and two twin brothers who are not related to each other or the mother and child.</h6>
-      </div>
-      
-      <textarea rows="4" cols="100" maxlength="300" placeholder="max 300 characters"></textarea>
-      <div>
-        <h6>If you could be an animal, what you be and why?</h6>
+        <h5 class="font-blue">There are 3 drinks and 4 people. A mother with child and two twin brothers who are not related to each other or the mother and child.</h6>
       </div>
       
-      <textarea rows="4" cols="100" maxlength="300"placeholder="max 300 characters"></textarea>
+      <textarea class="text-box" maxlength="300" placeholder="max 300 characters"></textarea>
+      <div>
+        <h5 class="font-blue">If you could be an animal, what you be and why?</h6>
+      </div>
+      
+      <textarea class="text-box" maxlength="300"placeholder="max 300 characters"></textarea>
     </div>
   
 <!-- </div> -->
 <a href="index.html" class="btn btn-warning" id="back" style="display: block;">
                 <div class="hidden-phone">submit</div>
                 </a>
+                </div>
   </div> 
 </form>
+</div>
+</div>
+
 
 <!-- =============================Footer================================== -->
 
 <footer>
-<h6 class="footer"> ©2017 Naked Wines  Norwich | Newport | Nappa </h6>
+<h6 id="footer"> ©2017 Naked Wines  Norwich | Newport | Nappa </h6>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
